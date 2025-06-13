@@ -11,6 +11,9 @@ public Jugador  jugadores []=new Jugador[15];
  nombre="";
  puntos=0;
  anotciones=0;
+ for (int i = 0; i < jugadores.length; i++) {
+            jugadores[i] =new Jugador(1+1); // Asignar valores numero de jugador 1 al 15
+        }
  
  }
  
